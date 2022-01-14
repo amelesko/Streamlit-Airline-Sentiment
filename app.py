@@ -23,6 +23,9 @@ DATA_URL = (
     "Tweets.csv"
 )
 
+# Get rid of unnecessary warning
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 # Set up titles
 st.title("Sentiment Analysis of Tweets about US Airlines")
 st.sidebar.title("Sentiment Analysis of Tweets")
